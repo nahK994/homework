@@ -1,0 +1,253 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutGap="12px">
+    <mat-card class="mat-card-class">
+        <div fxLayout="row" fxLayoutGap="12px">
+            <div class="logo" fxLayout="column" fxLayoutAlign="center center">
+                <mat-icon>add</mat-icon>
+            </div>
+            <div>
+                <h3>Title</h3>
+                <p>Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.ditiis! Quod!</p>
+            </div>
+        </div>
+    </mat-card>
+
+    <mat-card class="mat-card-class">
+        <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="12px">
+            <div fxLayout="column" fxLayoutAlign="start">
+                <div class="logo" fxLayout="column" fxLayoutAlign="center center">
+                    <mat-icon>add</mat-icon>
+                </div>
+            </div>
+            <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px">
+                <h3>Title2</h3>
+                <p>Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.ditiis! Quod!</p>
+            </div>
+        </div>
+    </mat-card>
+
+    <mat-card class="mat-card-class">
+        <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="12px">
+            <div fxLayout="column" fxLayoutAlign="start">
+                <div class="logo" fxLayout="column" fxLayoutAlign="center center">
+                    <mat-icon>add</mat-icon>
+                </div>
+            </div>
+            <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px">
+                <h3>Title2</h3>
+                <p>Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.ditiis! Quod!</p>
+            </div>
+        </div>
+    </mat-card>
+</div>
+
+<div class="mt-52 w-100-p" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-between">
+    <div fxFlex="35">
+        <mat-card>
+            <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="4px">
+                <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="8px" class="mb-28">
+                    <h3>Today's Schedule</h3>
+                    <p>Checkout your daily schedule</p>
+                </div>
+                
+                <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                    <!-- <span *ngFor="let item of loop; let i of index">
+                        <span *ngIf="i === 0">
+                            <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                                <div fxFlex="15" class="logo1" fxLayout="column" fxLayoutAlign="center center">
+                                    <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                                </div>
+                                
+                                <div class="after-class" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                                    <h3>Name</h3>
+                                    <p>Description</p>
+                                </div>
+                            </div>
+                        </span>
+
+                        <span *ngIf="i !== 0 && i !== loop.length">
+                            <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                                <div fxFlex="15" class="logo1 pt-20" fxLayout="column" fxLayoutAlign="center center">
+                                    <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                                </div>
+                                
+                                <div class="after-class pt-20" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                                    <h3>Name</h3>
+                                    <p>Description</p>
+                                </div>
+                            </div>
+                        </span>
+
+                        <span *ngIf="i === loop.length">
+                            <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                                <div fxFlex="15" class="logo1 pt-20" fxLayout="column" fxLayoutAlign="center center">
+                                    <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                                </div>
+                                
+                                <div class="after-class pt-20" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                                    <h3>Name</h3>
+                                    <p>Description</p>
+                                </div>
+                            </div>
+                        </span>
+                    </span> -->
+
+                    <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                        <div fxFlex="15" class="logo1" fxLayout="column" fxLayoutAlign="center center">
+                            <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                        </div>
+                        
+                        <div class="after-class" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                            <h3>Name</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                
+                    <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                        <div fxFlex="15" class="logo1 pt-20" fxLayout="column" fxLayoutAlign="center center">
+                            <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                        </div>
+                        
+                        <div class="after-class pt-20" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                            <h3>Name</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+
+                    <div class="before-class" fxLayout="row" fxLayoutAlign="space-between">
+                        <div fxFlex="15" class="logo1 pt-20" fxLayout="column" fxLayoutAlign="center center">
+                            <img class="logo1" src="../assets/images/Velazquez.jpg"/>
+                        </div>
+                        
+                        <div class="after-class pt-20" fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                            <h3>Name</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div fxLayout="row" fxLaoutAlign="start" fxLayoutGap="24px" class="mt-24">
+                    <button mat-raised-button class="btn1">Basic</button>
+                    <button mat-raised-button class="btn2">Basic</button>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex="60" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px" class="w-100-p">
+        <mat-card>
+            <div fxLayout="row" fxLayoutAlign="space-between">
+                <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px">
+                    <h4>Title2</h4>
+                    <p>Description</p>
+                </div>
+                <div>
+                    <mat-form-field>
+                        <mat-select>
+                            <mat-option *ngFor="let cc of List" [value]="cc">{{cc}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </mat-card>
+    
+        <div fxLayout="row" fxLayoutAlign="space-between" class="deco">
+            <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px">
+                <h4>Title2</h4>
+                <p>Description</p>
+            </div>
+            <div class="blueText" fxLayout="column" fxLayoutAlign="start">
+                <p>$1234</p>
+            </div>
+        </div>
+    
+        <mat-card>
+            <div fxLayout="row" fxHide.xs="true" fxLayoutAlign="start center" class="px-10">
+                <h4 fxFlex="10">#</h4>
+                <h4 fxFlex="50">Item</h4>
+                <h4 fxFlex="20">Status</h4>
+                <h4 fxFlex="20">Date</h4>
+                <h4 fxFlex="20">Price</h4>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="12px" fxLayoutAlign="start center" class="px-10">
+                <p fxFlex="10">1</p>
+                <p fxFlex="50">Book</p>
+                <div fxFlex="20"><p class="deco1 px-10">Available</p></div>
+                <p fxFlex="20">9/19/2020</p>
+                <p fxFlex="20">$200</p>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="12px" fxLayoutAlign="start center" class="px-10">
+                <p fxFlex="10">2</p>
+                <p fxFlex="50">Book</p>
+                <div fxFlex="20"><p class="deco1 px-10">Available</p></div>
+                <p fxFlex="20">9/19/2020</p>
+                <p fxFlex="20">$200</p>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutGap.xs="12px" fxLayoutAlign="start center" class="px-10">
+                <p fxFlex="10">3</p>
+                <p fxFlex="50">Book</p>
+                <div fxFlex="20"><p class="deco1 px-10">Available</p></div>
+                <p fxFlex="20">9/19/2020</p>
+                <p fxFlex="20">$200</p>
+            </div>
+        </mat-card>
+    </div>
+</div>
+
+<div class="mt-20" fxLayout="row" fxLayoutALign="start" fxLayoutGap="12px">
+    <div fxFlex="60">
+        <mat-card>
+            <mat-card-content>
+                <div fxLayout="row" fxHide.xs="true" fxLayoutAlign="start center" class="px-10">
+                    <h4 fxFlex="50">Assigned</h4>
+                    <h4 fxFlex="20">Name</h4>
+                    <h4 fxFlex="20">Priority</h4>
+                    <h4 fxFlex="20">Budget</h4>
+                </div>
+
+                <div fxLayout="row" fxHide.xs="true" fxLayoutAlign="start center" class="px-10 mt-16">
+                    <div fxFLex="50" fxLayout="row" fxLayoutAlign="start">
+                        <div fxFlex="15" class="logo2" fxLayout="column" fxLayoutAlign="center center">
+                            <img class="logo2" src="../assets/images/Velazquez.jpg"/>
+                        </div>
+                        
+                        <div fxFlex="80" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="0px">
+                            <h3>Name</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div fxFlex="20">Khan</div>
+                    <div fxFlex="20">Khan</div>
+                    <div fxFlex="20">Khan</div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div fxFlex="40">
+        <mat-card>
+            <mat-card-content>
+                <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="12px">
+                    <div>
+                        <img class="w-100-p" src="../assets/images/Velazquez.jpg"/>
+                    </div>
+                    <h3>Business development of rules</h3>
+                    <div><p class="deco1 px-10">Technogy</p></div>
+                    <div>
+                        This is a simple text. This is a simple text. This is a simple text. This is a simple text.
+                        This is a simple text. This is a simple text. This is a simple text. This is a simple text.
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+// Mixin for pre generated class
+@import "./mixin.scss";
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./responsive.scss";
+@import "./themes.scss";
+@import "./colors.scss";
+@import "./angulary-font.scss";
+
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+$custom-typography: mat-typography-config($font-family: '"Muli", sans-serif;');
+@include mat-core($custom-typography);
+
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+
+// Main style start
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+}
+.card{
+    background-color: #fff;
+    padding: 16px;
+}
+
+.circle-success{
+    background-color: #24d2b5;
+}
+.circle-accent{
+    background-color: #9aa4b1;
+}
+.circle-warn{
+    background-color: #fd5052;
+}
+.circle-success-shade{
+    background-color: #b0ffea;
+}
+
+.tag{
+    border-radius: 30px;
+    padding: 5px 12px;
+}

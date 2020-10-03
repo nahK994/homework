@@ -1,0 +1,132 @@
+.logo
+{
+    background-color: #009688;
+    border-radius: 50%;
+    color: white;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.logo1
+{
+    width: 80%;
+    height: 90%;
+    margin-left: -20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.logo2
+{
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+    color: white;
+}
+
+// .mat-card-class{
+//     max-width: 300px;
+// }
+
+.w-100-p{
+    width: 100%;
+}
+
+.deco
+{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.line{
+    border: solid 0.1px #eeeeee;
+    height: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deco1{
+    background-color: #009688;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    max-width: fit-content;
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blueText{
+    color: #039be5;
+    font-size: 32px;
+}
+
+.btn1{
+    color: red;
+    border-color: red;
+    border-style: solid;
+}
+
+.btn2{
+    color: #039be5;
+    border-color: #039be5;
+    border-style: solid;
+}
+
+.before-class::before{
+    border-left-style: solid;
+    border-left-color: #b2dfdb;
+    border-left-width: 2px;
+
+    //height: 100%;
+    //width: 100%;
+    margin-left: 25px;
+    content: "";
+}
+
+
+.after-class::after{
+    border-style: solid;
+    border-color: #b2dfdb;
+    border-width: 1px;
+
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    margin-left: -40px;
+    margin-top: 20px;
+    content: "";
+}
+
+.after-class::after{
+    border-style: solid;
+    border-color: #b2dfdb;
+    border-width: 1px;
+
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    margin-left: -40px;
+    margin-top: 20px;
+    content: "";
+}
+
+// .after-class:not(:last-child)::after{
+//     border-style: solid;
+//     border-color: #b2dfdb;
+//     border-width: 1px;
+
+//     height: 100%;
+//     width: 100%;
+//     padding-left: 40px;
+//     margin-left: -40px;
+//     margin-top: 20px;
+//     content: "";
+// }
+
+// .after-class:last-child::after{
+//     content:"";
+// }
